@@ -1,0 +1,12 @@
+{
+  "name": "ocamlnode",
+  "version": "0.1.0",
+  "sources": ["src"],
+  "reason": { "react-jsx": 2 },
+  "package-output": "./lib/js",
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "bs-dependencies": ["reason-react"]
+}
